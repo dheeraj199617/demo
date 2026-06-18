@@ -8,7 +8,7 @@ on:
 env:
   AWS_REGION: ap-south-1                  # AWS Region (Mumbai)
   ECR_REPOSITORY: lb-poc                  # Name of Amazon ECR repository
-  ECS_SERVICE: lb-poc                     # Name of Amazon ECS Service
+  ECS_SERVICE: lb-poc-service-k3pbfb78                     # Name of Amazon ECS Service
   ECS_CLUSTER: lb-poc                     # Name of Amazon ECS Cluster 
   ECS_TASK_DEFINITION: task-definition.json # Kept directly outside in the root folder
   CONTAINER_NAME: lb-poc                  # Name of the container specified inside the task definition
