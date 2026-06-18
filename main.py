@@ -6,4 +6,4 @@ app = FastAPI()
 #endpoint
 @app.get("/")
 def read_root():
-    return {"message": "Shivani ka gand"}
+    return {"message": "yes i'm healthy"}
