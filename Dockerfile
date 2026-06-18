@@ -17,5 +17,5 @@ COPY . .
 EXPOSE 8000
 
 # 7. Command to run the FastAPI application using Uvicorn
-#one dummy commit
+#one dummy committ
 CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
