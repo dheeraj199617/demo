@@ -6,4 +6,5 @@ app = FastAPI()
 #endpoint
 @app.get("/")
 def read_root():
-    return {"message": "yes i'm healthy"}
+    return {"message": "ok",
+            'status'  :"healthy"}
